@@ -7,9 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9CC6288F23EDA730006FBD06 /* CIImagePropertyOrientation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CC6288E23EDA730006FBD06 /* CIImagePropertyOrientation.swift */; };
+		9CC6289223EDA769006FBD06 /* FPSCounter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CC6289123EDA769006FBD06 /* FPSCounter.swift */; };
+		9CC6289423EDA781006FBD06 /* VideoCapture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CC6289323EDA781006FBD06 /* VideoCapture.swift */; };
 		9CF1868023E435520034A3CF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CF1867F23E435520034A3CF /* AppDelegate.swift */; };
 		9CF1868223E435520034A3CF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CF1868123E435520034A3CF /* SceneDelegate.swift */; };
-		9CF1868423E435520034A3CF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CF1868323E435520034A3CF /* ViewController.swift */; };
+		9CF1868423E435520034A3CF /* ImageClassificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CF1868323E435520034A3CF /* ImageClassificationViewController.swift */; };
 		9CF1868723E435520034A3CF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CF1868523E435520034A3CF /* Main.storyboard */; };
 		9CF1868923E435540034A3CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9CF1868823E435540034A3CF /* Assets.xcassets */; };
 		9CF1868C23E435540034A3CF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CF1868A23E435540034A3CF /* LaunchScreen.storyboard */; };
@@ -17,10 +20,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9CC6288E23EDA730006FBD06 /* CIImagePropertyOrientation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CIImagePropertyOrientation.swift; sourceTree = "<group>"; };
+		9CC6289123EDA769006FBD06 /* FPSCounter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FPSCounter.swift; sourceTree = "<group>"; };
+		9CC6289323EDA781006FBD06 /* VideoCapture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoCapture.swift; sourceTree = "<group>"; };
 		9CF1867C23E435520034A3CF /* PizzaClassifier.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PizzaClassifier.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9CF1867F23E435520034A3CF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9CF1868123E435520034A3CF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		9CF1868323E435520034A3CF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9CF1868323E435520034A3CF /* ImageClassificationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageClassificationViewController.swift; sourceTree = "<group>"; };
 		9CF1868623E435520034A3CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9CF1868823E435540034A3CF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9CF1868B23E435540034A3CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -39,6 +45,39 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9C7F49A323EEF2A00052821B /* ImageClassification */ = {
+			isa = PBXGroup;
+			children = (
+				9CF1869723E435EF0034A3CF /* Pizza.mlmodel */,
+			);
+			path = ImageClassification;
+			sourceTree = "<group>";
+		};
+		9CC6288C23EDA71A006FBD06 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				9CC6288D23EDA722006FBD06 /* Extensions */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		9CC6288D23EDA722006FBD06 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				9CC6288E23EDA730006FBD06 /* CIImagePropertyOrientation.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		9CC6289023EDA75F006FBD06 /* VideoCapture */ = {
+			isa = PBXGroup;
+			children = (
+				9CC6289323EDA781006FBD06 /* VideoCapture.swift */,
+				9CC6289123EDA769006FBD06 /* FPSCounter.swift */,
+			);
+			path = VideoCapture;
+			sourceTree = "<group>";
+		};
 		9CF1867323E435520034A3CF = {
 			isa = PBXGroup;
 			children = (
@@ -58,6 +97,7 @@
 		9CF1867E23E435520034A3CF /* PizzaClassifier */ = {
 			isa = PBXGroup;
 			children = (
+				9CC6288C23EDA71A006FBD06 /* Utils */,
 				9CF1869323E435920034A3CF /* Model */,
 				9CF1869423E435970034A3CF /* View */,
 				9CF1869523E4359A0034A3CF /* Controller */,
@@ -71,6 +111,7 @@
 		9CF1869323E435920034A3CF /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				9CC6289023EDA75F006FBD06 /* VideoCapture */,
 				9CF1869623E435DB0034A3CF /* MLModels */,
 			);
 			path = Model;
@@ -89,7 +130,7 @@
 		9CF1869523E4359A0034A3CF /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				9CF1868323E435520034A3CF /* ViewController.swift */,
+				9CF1868323E435520034A3CF /* ImageClassificationViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -97,7 +138,7 @@
 		9CF1869623E435DB0034A3CF /* MLModels */ = {
 			isa = PBXGroup;
 			children = (
-				9CF1869723E435EF0034A3CF /* Pizza.mlmodel */,
+				9C7F49A323EEF2A00052821B /* ImageClassification */,
 			);
 			path = MLModels;
 			sourceTree = "<group>";
@@ -173,9 +214,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9CF1868423E435520034A3CF /* ViewController.swift in Sources */,
+				9CF1868423E435520034A3CF /* ImageClassificationViewController.swift in Sources */,
+				9CC6289423EDA781006FBD06 /* VideoCapture.swift in Sources */,
 				9CF1868023E435520034A3CF /* AppDelegate.swift in Sources */,
+				9CC6288F23EDA730006FBD06 /* CIImagePropertyOrientation.swift in Sources */,
 				9CF1868223E435520034A3CF /* SceneDelegate.swift in Sources */,
+				9CC6289223EDA769006FBD06 /* FPSCounter.swift in Sources */,
 				9CF1869823E435EF0034A3CF /* Pizza.mlmodel in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -323,6 +367,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = L37UQ6NGZG;
 				INFOPLIST_FILE = PizzaClassifier/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -341,6 +386,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = L37UQ6NGZG;
 				INFOPLIST_FILE = PizzaClassifier/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
