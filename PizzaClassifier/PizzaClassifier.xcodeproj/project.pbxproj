@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9CA0BB6123F1C79200C403F6 /* Pizza.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 9CA0BB6023F1C79200C403F6 /* Pizza.mlmodel */; };
 		9CC6288F23EDA730006FBD06 /* CIImagePropertyOrientation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CC6288E23EDA730006FBD06 /* CIImagePropertyOrientation.swift */; };
 		9CC6289223EDA769006FBD06 /* FPSCounter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CC6289123EDA769006FBD06 /* FPSCounter.swift */; };
 		9CC6289423EDA781006FBD06 /* VideoCapture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CC6289323EDA781006FBD06 /* VideoCapture.swift */; };
@@ -16,10 +17,10 @@
 		9CF1868723E435520034A3CF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CF1868523E435520034A3CF /* Main.storyboard */; };
 		9CF1868923E435540034A3CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9CF1868823E435540034A3CF /* Assets.xcassets */; };
 		9CF1868C23E435540034A3CF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CF1868A23E435540034A3CF /* LaunchScreen.storyboard */; };
-		9CF1869823E435EF0034A3CF /* Pizza.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 9CF1869723E435EF0034A3CF /* Pizza.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9CA0BB6023F1C79200C403F6 /* Pizza.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = Pizza.mlmodel; path = ../../../../../../Pizza.mlmodel; sourceTree = "<group>"; };
 		9CC6288E23EDA730006FBD06 /* CIImagePropertyOrientation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CIImagePropertyOrientation.swift; sourceTree = "<group>"; };
 		9CC6289123EDA769006FBD06 /* FPSCounter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FPSCounter.swift; sourceTree = "<group>"; };
 		9CC6289323EDA781006FBD06 /* VideoCapture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoCapture.swift; sourceTree = "<group>"; };
@@ -31,7 +32,6 @@
 		9CF1868823E435540034A3CF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9CF1868B23E435540034A3CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9CF1868D23E435540034A3CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9CF1869723E435EF0034A3CF /* Pizza.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Pizza.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,7 +48,7 @@
 		9C7F49A323EEF2A00052821B /* ImageClassification */ = {
 			isa = PBXGroup;
 			children = (
-				9CF1869723E435EF0034A3CF /* Pizza.mlmodel */,
+				9CA0BB6023F1C79200C403F6 /* Pizza.mlmodel */,
 			);
 			path = ImageClassification;
 			sourceTree = "<group>";
@@ -217,10 +217,10 @@
 				9CF1868423E435520034A3CF /* ImageClassificationViewController.swift in Sources */,
 				9CC6289423EDA781006FBD06 /* VideoCapture.swift in Sources */,
 				9CF1868023E435520034A3CF /* AppDelegate.swift in Sources */,
+				9CA0BB6123F1C79200C403F6 /* Pizza.mlmodel in Sources */,
 				9CC6288F23EDA730006FBD06 /* CIImagePropertyOrientation.swift in Sources */,
 				9CF1868223E435520034A3CF /* SceneDelegate.swift in Sources */,
 				9CC6289223EDA769006FBD06 /* FPSCounter.swift in Sources */,
-				9CF1869823E435EF0034A3CF /* Pizza.mlmodel in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
