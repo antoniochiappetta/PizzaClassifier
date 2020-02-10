@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9CA0BB6123F1C79200C403F6 /* Pizza.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 9CA0BB6023F1C79200C403F6 /* Pizza.mlmodel */; };
+		9C3DB81923F214A400A391C6 /* Pizza.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 9C3DB81823F214A400A391C6 /* Pizza.mlmodel */; };
 		9CC6288F23EDA730006FBD06 /* CIImagePropertyOrientation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CC6288E23EDA730006FBD06 /* CIImagePropertyOrientation.swift */; };
 		9CC6289223EDA769006FBD06 /* FPSCounter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CC6289123EDA769006FBD06 /* FPSCounter.swift */; };
 		9CC6289423EDA781006FBD06 /* VideoCapture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CC6289323EDA781006FBD06 /* VideoCapture.swift */; };
@@ -20,7 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		9CA0BB6023F1C79200C403F6 /* Pizza.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = Pizza.mlmodel; path = ../../../../../../Pizza.mlmodel; sourceTree = "<group>"; };
+		9C3DB81823F214A400A391C6 /* Pizza.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Pizza.mlmodel; sourceTree = "<group>"; };
 		9CC6288E23EDA730006FBD06 /* CIImagePropertyOrientation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CIImagePropertyOrientation.swift; sourceTree = "<group>"; };
 		9CC6289123EDA769006FBD06 /* FPSCounter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FPSCounter.swift; sourceTree = "<group>"; };
 		9CC6289323EDA781006FBD06 /* VideoCapture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoCapture.swift; sourceTree = "<group>"; };
@@ -48,7 +48,7 @@
 		9C7F49A323EEF2A00052821B /* ImageClassification */ = {
 			isa = PBXGroup;
 			children = (
-				9CA0BB6023F1C79200C403F6 /* Pizza.mlmodel */,
+				9C3DB81823F214A400A391C6 /* Pizza.mlmodel */,
 			);
 			path = ImageClassification;
 			sourceTree = "<group>";
@@ -216,8 +216,8 @@
 			files = (
 				9CF1868423E435520034A3CF /* ImageClassificationViewController.swift in Sources */,
 				9CC6289423EDA781006FBD06 /* VideoCapture.swift in Sources */,
+				9C3DB81923F214A400A391C6 /* Pizza.mlmodel in Sources */,
 				9CF1868023E435520034A3CF /* AppDelegate.swift in Sources */,
-				9CA0BB6123F1C79200C403F6 /* Pizza.mlmodel in Sources */,
 				9CC6288F23EDA730006FBD06 /* CIImagePropertyOrientation.swift in Sources */,
 				9CF1868223E435520034A3CF /* SceneDelegate.swift in Sources */,
 				9CC6289223EDA769006FBD06 /* FPSCounter.swift in Sources */,
