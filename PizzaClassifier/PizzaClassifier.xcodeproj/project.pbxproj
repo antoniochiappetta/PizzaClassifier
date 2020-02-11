@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9C44E66023F2C7D400D28C2A /* Pizza.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 9C44E65F23F2C7D400D28C2A /* Pizza.mlmodel */; };
+		9CA3B5DE23F2F17700E3C460 /* Pizza.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 9CA3B5DD23F2F17700E3C460 /* Pizza.mlmodel */; };
+		9CA3B5E123F2F2CB00E3C460 /* Bushwick_Tarantella.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9CA3B5E023F2F2CB00E3C460 /* Bushwick_Tarantella.mp3 */; };
 		9CC6288F23EDA730006FBD06 /* CIImagePropertyOrientation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CC6288E23EDA730006FBD06 /* CIImagePropertyOrientation.swift */; };
 		9CC6289223EDA769006FBD06 /* FPSCounter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CC6289123EDA769006FBD06 /* FPSCounter.swift */; };
 		9CC6289423EDA781006FBD06 /* VideoCapture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CC6289323EDA781006FBD06 /* VideoCapture.swift */; };
@@ -20,7 +21,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		9C44E65F23F2C7D400D28C2A /* Pizza.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Pizza.mlmodel; sourceTree = "<group>"; };
+		9CA3B5DD23F2F17700E3C460 /* Pizza.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Pizza.mlmodel; sourceTree = "<group>"; };
+		9CA3B5E023F2F2CB00E3C460 /* Bushwick_Tarantella.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Bushwick_Tarantella.mp3; sourceTree = "<group>"; };
 		9CC6288E23EDA730006FBD06 /* CIImagePropertyOrientation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CIImagePropertyOrientation.swift; sourceTree = "<group>"; };
 		9CC6289123EDA769006FBD06 /* FPSCounter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FPSCounter.swift; sourceTree = "<group>"; };
 		9CC6289323EDA781006FBD06 /* VideoCapture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoCapture.swift; sourceTree = "<group>"; };
@@ -48,14 +50,23 @@
 		9C7F49A323EEF2A00052821B /* ImageClassification */ = {
 			isa = PBXGroup;
 			children = (
-				9C44E65F23F2C7D400D28C2A /* Pizza.mlmodel */,
+				9CA3B5DD23F2F17700E3C460 /* Pizza.mlmodel */,
 			);
 			path = ImageClassification;
+			sourceTree = "<group>";
+		};
+		9CA3B5DF23F2F2AF00E3C460 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				9CA3B5E023F2F2CB00E3C460 /* Bushwick_Tarantella.mp3 */,
+			);
+			path = Sounds;
 			sourceTree = "<group>";
 		};
 		9CC6288C23EDA71A006FBD06 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				9CA3B5DF23F2F2AF00E3C460 /* Sounds */,
 				9CC6288D23EDA722006FBD06 /* Extensions */,
 			);
 			path = Utils;
@@ -201,6 +212,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9CA3B5E123F2F2CB00E3C460 /* Bushwick_Tarantella.mp3 in Resources */,
 				9CF1868C23E435540034A3CF /* LaunchScreen.storyboard in Resources */,
 				9CF1868923E435540034A3CF /* Assets.xcassets in Resources */,
 				9CF1868723E435520034A3CF /* Main.storyboard in Resources */,
@@ -216,7 +228,7 @@
 			files = (
 				9CF1868423E435520034A3CF /* ImageClassificationViewController.swift in Sources */,
 				9CC6289423EDA781006FBD06 /* VideoCapture.swift in Sources */,
-				9C44E66023F2C7D400D28C2A /* Pizza.mlmodel in Sources */,
+				9CA3B5DE23F2F17700E3C460 /* Pizza.mlmodel in Sources */,
 				9CF1868023E435520034A3CF /* AppDelegate.swift in Sources */,
 				9CC6288F23EDA730006FBD06 /* CIImagePropertyOrientation.swift in Sources */,
 				9CF1868223E435520034A3CF /* SceneDelegate.swift in Sources */,
